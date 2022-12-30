@@ -15,11 +15,12 @@
 @import "./home/testimonials.css";
 
 /* Bicycles */
+@import "./bicycles/bicycles.css";
 @import "./bicycles/bicycles-list.css";
-@import "./bicycle/bicycle.css";
 
 /* Bicycle */
 @import "./bicycle/bicycle.css";
+@import "./bicycle/insurance.css";
 
 /* Insurances */
 @import "./insurances/insurances.css";
