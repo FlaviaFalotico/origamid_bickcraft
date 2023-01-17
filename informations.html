@@ -11,10 +11,6 @@
 
   <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body id="informations">
@@ -41,7 +37,7 @@
       </div>
     </div>
     <div class="informations container">
-      <section class="informations-data" aria-label="Address">
+      <section class="informations-data fadeInLeft" data-anime="200"" aria-label=" Address">
         <h2 class="font-1-m color-0">Loja Online</h2>
         <div class="informations-address font-2-s color-4">
           <p>Rua Ali Perto, 35</p>
@@ -65,7 +61,7 @@
           </a>
         </div>
       </section>
-      <section class="informations-forms" aria-label="Forms">
+      <section class="informations-forms fadeInRight" data-anime="400"" aria-label=" Forms">
         <form class="form" action="./informations.html">
           <div>
             <label for="name">Nome</label>
@@ -162,6 +158,9 @@
       <p class="footer-copy font-2-m color-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+
+  <script src="./js/plugins/simple-anime.js"></script>;
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
